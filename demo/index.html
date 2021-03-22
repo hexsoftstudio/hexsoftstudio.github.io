@@ -7,6 +7,8 @@
     <title>Hello Bulma!</title>
     <link  href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700">
     <link rel="stylesheet" href="https://hexsoftstudio.github.io/theme-default/styles/bulma.css">
+    <!--link rel="shortcut icon" type="image/png" href="img/favicon.png"-->
+    <title>Hello Bulma!</title>
   </head>
   <body class="home">
     <nav>
@@ -17,8 +19,26 @@
       Header
     </header>
     
-    <section class="hero">
-      Hero
+    <section class="hero-container">
+      <video
+        class="hero__video"
+        poster="https://source.unsplash.com/weekly?water"
+        playsinline
+        autoplay
+        muted
+        loop
+      >
+        <source src="./video/170216A_142_WomanWatchingWaterfall2_1080p.webm" type="video/webm">
+        <source src="./video/170216A_142_WomanWatchingWaterfall2_1080p.mp4" type="video/mp4">
+      </video>
+      <div class="hero__detail hero__detail--left">
+        <h1>Waterfall</h1>
+        <div class="hero__detail--text">
+          <p><a href="https://www.videvo.net/video/panning-around-woman-watching-waterfall/5919/">Original video by kiril-videvo</a></p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi vitae quam? Eum enim perferendis blanditiis veniam earum vitae eos!</p>
+          <button>Read More</button>
+        </div>
+      </div>
     </section>
   
     <main>
